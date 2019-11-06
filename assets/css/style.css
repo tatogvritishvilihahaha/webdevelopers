@@ -1,0 +1,81 @@
+/* --------------header-------------- */
+header
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 100, 0.5)),url("pic4.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.nav-bar
+{
+    background: rgb(0,0,0,0.5);
+    height: 100px;
+}
+.logo
+{
+    height: 80px;
+    margin: 10px 50px;
+}
+.menu
+{
+    float: right;
+    margin: 30px;
+}
+.menu li{
+    display: inline-block;
+    margin: 10px 5px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid white;
+}
+.menu li a:hover
+{
+    background: white;
+    transition: .4s;
+    color: #000;
+}
+.welcome
+{
+position: relative;
+text-align: center;
+color: white;
+font-family: sans-serif;
+top: 200px;
+}
+.welcome h1
+{
+    font-size: 70px;
+    margin: 40px;
+    font-family: fantasy;
+}
+.btn
+{
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 7px 10px;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+}
+.btn1 
+{
+    background: #fff;
+    color: #000;
+}
+.btn2
+{
+    color: white;
+}
+
+.btn2:hover
+{
+    background: white;
+    color: #000;
+    transition: .4s;
+}
