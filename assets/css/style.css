@@ -79,3 +79,20 @@ top: 200px;
     color: #000;
     transition: .4s;
 }
+/* ------footer------ */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 100, 0.5));
+    color: white;
+    text-align: center;
+    background: rgb(0,0,0,0.5);
+    height: 60px;
+    padding-top: 20px;
+}
+.footer .p1 
+{
+    font-family: "ALK Rec Bold", sans-serif;
+}
